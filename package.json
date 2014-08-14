@@ -7,16 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "google",
-    "play",
-    "developers",
-    "api",
-    "google",
-    "play",
-    "store",
+    "google play developers api",
+    "google play store",
     "purchase",
     "receipt"
   ],
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://bitbucket.org/gooroo175/google-play-purchase-validator.git"
+  }
   "author": "Max Maurer <maxemanuel.maurer@gmail.com>",
   "license": "MIT",
   "dependencies": {
