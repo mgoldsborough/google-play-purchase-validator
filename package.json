@@ -16,7 +16,7 @@
   {
     "type" : "git",
     "url" : "https://bitbucket.org/gooroo175/google-play-purchase-validator.git"
-  }
+  },
   "author": "Max Maurer <maxemanuel.maurer@gmail.com>",
   "license": "MIT",
   "dependencies": {
