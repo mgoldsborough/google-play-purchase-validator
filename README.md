@@ -26,8 +26,8 @@ verifier.verify(receipt, function cb(err, response) {
   /* response looks like this
   {
   "kind": "androidpublisher#subscriptionPurchase",
-  "startTimeMillis": long,
-  "expiryTimeMillis": long,
+  "startTimeMillis": "long",
+  "expiryTimeMillis": "long",
   "autoRenewing": boolean
   }*/
   console.log(response);
