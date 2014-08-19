@@ -8,7 +8,7 @@ function Verifier(options) {
 
 Verifier.prototype.verify = function(receipt, cb) {
   var urlPattern = "https://www.googleapis.com/androidpublisher/v2/applications/%s/purchases/subscriptions/%s/tokens/%s";
-  var finalUrl = util.format(urlPattern, receipt.packageName, receipt.productId, receipt.purchaseToken);
+  var finalUrl = util.format(urlPattern, encodeURIComponent(receipt.packageName), encodeURIComponent(receipt.productId), encodeURIComponent(receipt.purchaseToken));
   request({
     url: finalUrl,
     jwt: {
