@@ -19,7 +19,7 @@ Verifier.prototype.verify = function(receipt, cb) {
     }
   }, function (err, res, body) {
     if (err) {
-      cb(err);
+      return cb(err);
     }
     var obj = JSON.parse(body);
     if ("error" in obj) {
